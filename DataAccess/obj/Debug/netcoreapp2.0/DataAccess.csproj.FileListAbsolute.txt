@@ -1,0 +1,11 @@
+c:\users\anupa\source\repos\UserRegistration\DataAccess\bin\Debug\netcoreapp2.0\DataAccess.deps.json
+c:\users\anupa\source\repos\UserRegistration\DataAccess\bin\Debug\netcoreapp2.0\DataAccess.dll
+c:\users\anupa\source\repos\UserRegistration\DataAccess\bin\Debug\netcoreapp2.0\DataAccess.pdb
+c:\users\anupa\source\repos\UserRegistration\DataAccess\bin\Debug\netcoreapp2.0\BusinessEntity.dll
+c:\users\anupa\source\repos\UserRegistration\DataAccess\bin\Debug\netcoreapp2.0\BusinessEntity.pdb
+c:\users\anupa\source\repos\UserRegistration\DataAccess\obj\Debug\netcoreapp2.0\DataAccess.csprojResolveAssemblyReference.cache
+c:\users\anupa\source\repos\UserRegistration\DataAccess\obj\Debug\netcoreapp2.0\DataAccess.csproj.CoreCompileInputs.cache
+c:\users\anupa\source\repos\UserRegistration\DataAccess\obj\Debug\netcoreapp2.0\DataAccess.AssemblyInfoInputs.cache
+c:\users\anupa\source\repos\UserRegistration\DataAccess\obj\Debug\netcoreapp2.0\DataAccess.AssemblyInfo.cs
+c:\users\anupa\source\repos\UserRegistration\DataAccess\obj\Debug\netcoreapp2.0\DataAccess.dll
+c:\users\anupa\source\repos\UserRegistration\DataAccess\obj\Debug\netcoreapp2.0\DataAccess.pdb

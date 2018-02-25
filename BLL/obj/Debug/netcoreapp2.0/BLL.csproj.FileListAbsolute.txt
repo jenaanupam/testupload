@@ -1,0 +1,13 @@
+c:\users\anupa\source\repos\UserRegistration\BLL\bin\Debug\netcoreapp2.0\BLL.deps.json
+c:\users\anupa\source\repos\UserRegistration\BLL\bin\Debug\netcoreapp2.0\BLL.dll
+c:\users\anupa\source\repos\UserRegistration\BLL\bin\Debug\netcoreapp2.0\BLL.pdb
+c:\users\anupa\source\repos\UserRegistration\BLL\bin\Debug\netcoreapp2.0\BusinessEntity.dll
+c:\users\anupa\source\repos\UserRegistration\BLL\bin\Debug\netcoreapp2.0\DataAccess.dll
+c:\users\anupa\source\repos\UserRegistration\BLL\bin\Debug\netcoreapp2.0\BusinessEntity.pdb
+c:\users\anupa\source\repos\UserRegistration\BLL\bin\Debug\netcoreapp2.0\DataAccess.pdb
+c:\users\anupa\source\repos\UserRegistration\BLL\obj\Debug\netcoreapp2.0\BLL.csprojResolveAssemblyReference.cache
+c:\users\anupa\source\repos\UserRegistration\BLL\obj\Debug\netcoreapp2.0\BLL.csproj.CoreCompileInputs.cache
+c:\users\anupa\source\repos\UserRegistration\BLL\obj\Debug\netcoreapp2.0\BLL.AssemblyInfoInputs.cache
+c:\users\anupa\source\repos\UserRegistration\BLL\obj\Debug\netcoreapp2.0\BLL.AssemblyInfo.cs
+c:\users\anupa\source\repos\UserRegistration\BLL\obj\Debug\netcoreapp2.0\BLL.dll
+c:\users\anupa\source\repos\UserRegistration\BLL\obj\Debug\netcoreapp2.0\BLL.pdb

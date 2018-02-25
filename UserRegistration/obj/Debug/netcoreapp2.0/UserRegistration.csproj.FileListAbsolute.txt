@@ -1,0 +1,17 @@
+c:\users\anupa\source\repos\UserRegistration\UserRegistration\bin\Debug\netcoreapp2.0\UserRegistration.deps.json
+c:\users\anupa\source\repos\UserRegistration\UserRegistration\bin\Debug\netcoreapp2.0\UserRegistration.runtimeconfig.json
+c:\users\anupa\source\repos\UserRegistration\UserRegistration\bin\Debug\netcoreapp2.0\UserRegistration.runtimeconfig.dev.json
+c:\users\anupa\source\repos\UserRegistration\UserRegistration\bin\Debug\netcoreapp2.0\UserRegistration.dll
+c:\users\anupa\source\repos\UserRegistration\UserRegistration\obj\Debug\netcoreapp2.0\UserRegistration.csprojResolveAssemblyReference.cache
+c:\users\anupa\source\repos\UserRegistration\UserRegistration\obj\Debug\netcoreapp2.0\UserRegistration.csproj.CoreCompileInputs.cache
+c:\users\anupa\source\repos\UserRegistration\UserRegistration\obj\Debug\netcoreapp2.0\UserRegistration.AssemblyInfoInputs.cache
+c:\users\anupa\source\repos\UserRegistration\UserRegistration\obj\Debug\netcoreapp2.0\UserRegistration.AssemblyInfo.cs
+c:\users\anupa\source\repos\UserRegistration\UserRegistration\bin\Debug\netcoreapp2.0\UserRegistration.pdb
+c:\users\anupa\source\repos\UserRegistration\UserRegistration\obj\Debug\netcoreapp2.0\UserRegistration.dll
+c:\users\anupa\source\repos\UserRegistration\UserRegistration\obj\Debug\netcoreapp2.0\UserRegistration.pdb
+c:\users\anupa\source\repos\UserRegistration\UserRegistration\bin\Debug\netcoreapp2.0\BLL.dll
+c:\users\anupa\source\repos\UserRegistration\UserRegistration\bin\Debug\netcoreapp2.0\BusinessEntity.dll
+c:\users\anupa\source\repos\UserRegistration\UserRegistration\bin\Debug\netcoreapp2.0\DataAccess.dll
+c:\users\anupa\source\repos\UserRegistration\UserRegistration\bin\Debug\netcoreapp2.0\BLL.pdb
+c:\users\anupa\source\repos\UserRegistration\UserRegistration\bin\Debug\netcoreapp2.0\BusinessEntity.pdb
+c:\users\anupa\source\repos\UserRegistration\UserRegistration\bin\Debug\netcoreapp2.0\DataAccess.pdb
