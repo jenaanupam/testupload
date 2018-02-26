@@ -7,3 +7,12 @@ c:\users\anupa\source\repos\UserRegistration\BusinessEntity\obj\Debug\netcoreapp
 c:\users\anupa\source\repos\UserRegistration\BusinessEntity\obj\Debug\netcoreapp2.0\BusinessEntity.AssemblyInfo.cs
 c:\users\anupa\source\repos\UserRegistration\BusinessEntity\obj\Debug\netcoreapp2.0\BusinessEntity.dll
 c:\users\anupa\source\repos\UserRegistration\BusinessEntity\obj\Debug\netcoreapp2.0\BusinessEntity.pdb
+F:\git\testupload\testupload\BusinessEntity\bin\Debug\netcoreapp2.0\BusinessEntity.deps.json
+F:\git\testupload\testupload\BusinessEntity\bin\Debug\netcoreapp2.0\BusinessEntity.dll
+F:\git\testupload\testupload\BusinessEntity\bin\Debug\netcoreapp2.0\BusinessEntity.pdb
+F:\git\testupload\testupload\BusinessEntity\obj\Debug\netcoreapp2.0\BusinessEntity.csprojResolveAssemblyReference.cache
+F:\git\testupload\testupload\BusinessEntity\obj\Debug\netcoreapp2.0\BusinessEntity.csproj.CoreCompileInputs.cache
+F:\git\testupload\testupload\BusinessEntity\obj\Debug\netcoreapp2.0\BusinessEntity.AssemblyInfoInputs.cache
+F:\git\testupload\testupload\BusinessEntity\obj\Debug\netcoreapp2.0\BusinessEntity.AssemblyInfo.cs
+F:\git\testupload\testupload\BusinessEntity\obj\Debug\netcoreapp2.0\BusinessEntity.dll
+F:\git\testupload\testupload\BusinessEntity\obj\Debug\netcoreapp2.0\BusinessEntity.pdb

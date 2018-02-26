@@ -11,3 +11,16 @@ c:\users\anupa\source\repos\UserRegistration\BLL\obj\Debug\netcoreapp2.0\BLL.Ass
 c:\users\anupa\source\repos\UserRegistration\BLL\obj\Debug\netcoreapp2.0\BLL.AssemblyInfo.cs
 c:\users\anupa\source\repos\UserRegistration\BLL\obj\Debug\netcoreapp2.0\BLL.dll
 c:\users\anupa\source\repos\UserRegistration\BLL\obj\Debug\netcoreapp2.0\BLL.pdb
+F:\git\testupload\testupload\BLL\bin\Debug\netcoreapp2.0\BLL.deps.json
+F:\git\testupload\testupload\BLL\bin\Debug\netcoreapp2.0\BLL.dll
+F:\git\testupload\testupload\BLL\bin\Debug\netcoreapp2.0\BLL.pdb
+F:\git\testupload\testupload\BLL\bin\Debug\netcoreapp2.0\BusinessEntity.dll
+F:\git\testupload\testupload\BLL\bin\Debug\netcoreapp2.0\DataAccess.dll
+F:\git\testupload\testupload\BLL\bin\Debug\netcoreapp2.0\BusinessEntity.pdb
+F:\git\testupload\testupload\BLL\bin\Debug\netcoreapp2.0\DataAccess.pdb
+F:\git\testupload\testupload\BLL\obj\Debug\netcoreapp2.0\BLL.csprojResolveAssemblyReference.cache
+F:\git\testupload\testupload\BLL\obj\Debug\netcoreapp2.0\BLL.csproj.CoreCompileInputs.cache
+F:\git\testupload\testupload\BLL\obj\Debug\netcoreapp2.0\BLL.AssemblyInfoInputs.cache
+F:\git\testupload\testupload\BLL\obj\Debug\netcoreapp2.0\BLL.AssemblyInfo.cs
+F:\git\testupload\testupload\BLL\obj\Debug\netcoreapp2.0\BLL.dll
+F:\git\testupload\testupload\BLL\obj\Debug\netcoreapp2.0\BLL.pdb

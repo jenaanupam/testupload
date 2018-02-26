@@ -17,9 +17,10 @@ namespace UserRegistration.Controllers
 
         public IActionResult About()
         {
+            EndUserDetailsModel k = new EndUserDetailsModel();
             ViewData["Message"] = "Your application description page.";
 
-            return View();
+            return View(k);
         }
 
         public IActionResult Contact()

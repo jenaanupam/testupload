@@ -1,0 +1,123 @@
+﻿@model EndUserDetailsModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("emaildetail", "MyWelcome", FormMethod.Get))
+{
+    @Html.AntiForgeryToken();
+<section id="moving" style="width:90%;">
+    <video class="vdoclass" autoplay muted loop>
+        <source src="~/Video/video.mp4" type="video/mp4" />
+    </video>
+
+    @*<div id="vdodata" class="blocktext">
+            <h1>You can upload your documents here. Easy to start</h1>
+            <input type="submit" class="start-btn" value="Start here" />
+        </div>*@
+    <div>
+        <div class="center">
+            <ul style="list-style:none">
+
+                <li><p class="page-header"><h4>Get started by providing just below detail</h4></p></li>
+                <li> @Html.TextBoxFor(m => m.email, htmlAttributes: new { @class = "form_field_index", placeholder = "Email Address" })</li> 
+                <li><div style="text-align:center;margin-top:10px"><input type="submit" class="btn btn-primary" value="Tour" id-="Start" /></div></li>
+            </ul>
+
+        </div>
+        <div class="validation-section">
+            @Html.ValidationMessageFor(m => m.email)
+        </div>
+        <div style="text-align:center;">
+            
+        </div>
+    </div>
+</section>
+  
+}
+
+<style>
+    .form_field_index {
+        width: 90%;
+        background: #ffffff;
+        color: black;
+        font: inherit;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .9);
+        border: 0;
+        outline: 0;
+        padding: 22px 18px;
+        margin-top: 10px;
+        opacity:.9;
+        
+    }
+    .center {
+        margin-left: auto;
+        margin-top: 40px;
+        margin-right: -50px;
+        width: 30%;
+        height: 300px;
+        border: 1px solid #808080;
+        padding: 10px;
+        opacity: .9;
+        background-color: rgb(255, 153, 0);
+        -webkit-box-shadow: -3px -8px 52px 4px rgba(63,64,63,0.53);
+        -moz-box-shadow: -3px -8px 52px 4px rgba(63,64,63,0.53);
+        box-shadow: -3px -8px 52px 4px rgba(63,64,63,0.53);
+        -webkit-border-radius: 49px 48px 48px 48px;
+        -moz-border-radius: 49px 48px 48px 48px;
+        border-radius: 49px 48px 48px 48px;
+    }
+    .vdoclass {
+        
+        width: 100%;
+        position: absolute;
+        z-index: -100;
+        transform: translateX(-1%) translateY(0%);
+        -ms-transform: translateX(-1%) translateY(0%);
+        -moz-transform: translateX(-1%) translateY(0%);
+        -webkit-transform: translateX(-1%) translateY(-20%);
+    }
+
+    .blocktext {
+        position: absolute;
+        margin-left: 40%;
+        margin-right: auto;
+        width: 30%;
+        margin-top: 20%
+    }
+
+
+    .section {
+        width: 100%;
+        padding: 0 7%;
+        display: table;
+        margin: 0;
+        max-width: none;
+        background-color: #373B44;
+        height: 100vh;
+    }
+
+    .intro {
+        height: 90vh;
+    }
+
+    .content {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    /*h1 {
+        font-size: 3em;
+        display: block;
+        color: white;
+        font-weight: 300;
+    }
+
+    p {
+        font-size: 1.5em;
+        font-weight: 500;
+        color: #C3CAD9;
+    }*/
+</style>
+

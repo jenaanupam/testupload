@@ -48,7 +48,7 @@ namespace UserRegistration
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Register}/{action=Index}/{id?}");
+                    template: "{controller=MyWelcome}/{action=Index}/{id?}");
             });
         }
     }

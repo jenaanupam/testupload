@@ -14,12 +14,29 @@ namespace UserRegistration
     {
         public static void Main(string[] args)
         {
-            BuildWebHost(args).Run();
+            var host = new WebHostBuilder()
+                  .UseKestrel()
+                  .UseUrls(GetServerUrls(args))
+                  .UseContentRoot(Directory.GetCurrentDirectory())
+                  .UseIISIntegration()
+                  .UseStartup<Startup>()
+                  .UseApplicationInsights()
+                  .Build();
+
+            host.Run();
         }
 
-        public static IWebHost BuildWebHost(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>()
-                .Build();
+        private static string[] GetServerUrls(string[] args)
+        {
+            List<string> urls = new List<string>();
+            for (int i = 0; i < args.Length; i++)
+            {
+                if ("--server.urls".Equals(args[i], StringComparison.OrdinalIgnoreCase))
+                {
+                    urls.Add(args[i + 1]);
+                }
+            }
+            return urls.ToArray();
+        }
     }
 }

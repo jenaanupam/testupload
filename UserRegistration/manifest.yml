@@ -1,0 +1,10 @@
+﻿---
+applications:
+- name: demo_dotNetCore1
+  memory: 512M
+  buildpack : dotnet_core_buildpack
+  env:
+    ASPNETCORE_ENVIRONMENT: Development
+  services:
+   - myMySqlService
+    
