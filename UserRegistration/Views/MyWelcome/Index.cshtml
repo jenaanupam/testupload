@@ -4,72 +4,88 @@
     Layout = "~/Views/Shared/_Layouthome.cshtml";
 }
 
-@using (Html.BeginForm("emaildetail", "MyWelcome", FormMethod.Get))
+@using (Html.BeginForm("emaildetail", "MyWelcome", FormMethod.Post))
 {
     @Html.AntiForgeryToken();
-    <section id="moving" style="width:90%;">
-        <video class="vdoclass" autoplay muted loop>
-            <source src="~/Video/video.mp4" type="video/mp4" />
-        </video>
+<section id="moving" style="width:90%;">
+    <video class="vdoclass" autoplay muted loop>
+        <source src="~/Video/video.mp4" type="video/mp4" />
+    </video>
+    <div id="panel" class="paneldiv">
+        <ul style="list-style:none;padding-top:2em;">
+            <li> @Html.TextBoxFor(m => m.email, htmlAttributes: new { @class = "form_field_index", placeholder = "Email Address" })</li>
+            <li> @Html.TextBoxFor(m => m.password, htmlAttributes: new { @class = "form_field_index", placeholder = "Password" })</li>
+            <li>
+                <table>
+                    <tr>
+                        <td><input type="submit" class="btn btn-primary buttonmiddle" value="Login" id-="Login" onclick="location.href = 'mywelcome/EmailDetail';" /></td>
+                        <td> <input type="submit" class="btn btn-primary buttonmiddle" value="Sign Up" id-="signup" onclick="location.href = 'register/index'; return false;"  /></td>
+                    </tr>
+                </table>
+            </li>
+            <li style=" margin: 10px 0;"> </li>
+            <li style=" margin: 10px 0;float:right;"></li>
+        </ul>
 
-        @*<div id="vdodata" class="blocktext">
-                <h1>You can upload your documents here. Easy to start</h1>
-                <input type="submit" class="start-btn" value="Start here" />
-            </div>*@
-        @*<div>
+    </div>
+    @*<div id="vdodata" class="blocktext">
+            <h1>You can upload your documents here. Easy to start</h1>
+            <input type="submit" class="start-btn" value="Start here" />
+        </div>*@
+    @*<div>
+            <div class="centertop">
+                <ul style="list-style:none">
+
+                    <li> @Html.TextBoxFor(m => m.email, htmlAttributes: new { @class = "form_field_index", placeholder = "Email Address" })</li>
+                    <li> @Html.TextBoxFor(m => m.password, htmlAttributes: new { @class = "form_field_index", placeholder = "Password" })</li>
+                    <li><div style="text-align:center;margin-top:10px"><input type="submit" class="btn btn-primary" value="Login" id-="Start" /></div></li>
+                </ul>
+
+            </div>
+            <div class="centerbelow">
+                <ul style="list-style:none">
+
+
+                    <li> @Html.TextBoxFor(m => m.email, htmlAttributes: new { @class = "form_field_index", placeholder = "Email Address" })</li>
+                    <li> @Html.TextBoxFor(m => m.password, htmlAttributes: new { @class = "form_field_index", placeholder = "Password" })</li>
+                    <li><div style="text-align:center;margin-top:10px"><input type="submit" class="btn btn-primary" value="Login" id-="Start" /></div></li>
+                </ul>
+
+            </div>
+            <div class="validation-section">
+                @Html.ValidationMessageFor(m => m.email)
+            </div>
+            <div style="text-align:center;">
+
+            </div>
+        </div>*@
+
+    <div class="centerdiv">
+        <ul style="list-style:none">
+
+
+            <li>
                 <div class="centertop">
-                    <ul style="list-style:none">
 
-                        <li> @Html.TextBoxFor(m => m.email, htmlAttributes: new { @class = "form_field_index", placeholder = "Email Address" })</li>
-                        <li> @Html.TextBoxFor(m => m.password, htmlAttributes: new { @class = "form_field_index", placeholder = "Password" })</li>
-                        <li><div style="text-align:center;margin-top:10px"><input type="submit" class="btn btn-primary" value="Login" id-="Start" /></div></li>
-                    </ul>
 
                 </div>
+            </li>
+            <li>
+                <div class="centermiddle">
+
+
+                </div>
+            </li>
+            <li>
                 <div class="centerbelow">
-                    <ul style="list-style:none">
 
-
-                        <li> @Html.TextBoxFor(m => m.email, htmlAttributes: new { @class = "form_field_index", placeholder = "Email Address" })</li>
-                        <li> @Html.TextBoxFor(m => m.password, htmlAttributes: new { @class = "form_field_index", placeholder = "Password" })</li>
-                        <li><div style="text-align:center;margin-top:10px"><input type="submit" class="btn btn-primary" value="Login" id-="Start" /></div></li>
-                    </ul>
 
                 </div>
-                <div class="validation-section">
-                    @Html.ValidationMessageFor(m => m.email)
-                </div>
-                <div style="text-align:center;">
-
-                </div>
-            </div>*@
-
-        <div class="centerdiv">
-            <ul style="list-style:none">
-
-
-                <li>
-                    <div class="centertop">
-
-
-                    </div>
-                </li>
-                <li>
-                    <div class="centermiddle">
-
-
-                    </div>
-                </li>
-                <li>
-                    <div class="centerbelow">
-
-
-                    </div>
-                    <img id="condone" src="~/images/considerdone.png" style="width:90%;height:50px;" />
-                </li>
-            </ul>
-        </div>
-    </section>
+                <img id="condone" src="~/images/considerdone.png" style="width:90%;height:50px;" />
+            </li>
+        </ul>
+    </div>
+</section>
 
 }
 

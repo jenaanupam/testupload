@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MySql.Data.MySqlClient;
 using UserRegistration.Models;
  
 
@@ -19,8 +20,23 @@ namespace UserRegistration.Controllers
         }
         public IActionResult Test()
         {
-           
-            return View( );
+            string connstr = "server=localhost;port=3306;database=dotnetdemo;user=root;password=anupam;";
+            string name = ";";
+            using (MySqlConnection conn = new MySqlConnection(connstr))
+            {
+                conn.Open();
+                MySqlCommand cmd = new MySqlCommand("select * from user",conn);
+                using (MySqlDataReader dr = cmd.ExecuteReader())
+                {
+                    while(dr.Read())
+                    {
+                        name = dr.GetString("name");
+                    }
+                }
+
+            }
+
+                return View();
         }
         [HttpGet]
         public IActionResult EmailDetail()
@@ -31,7 +47,8 @@ namespace UserRegistration.Controllers
         [HttpPost]
         public IActionResult EmailDetail(EndUserDetailsModel mod)
         {
-            return RedirectToAction("uploaddocuments");
+            //return RedirectToAction("FileUpload");
+            return View(new EndUserDetailsModel());
         }
 
          
