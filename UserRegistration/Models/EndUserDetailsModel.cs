@@ -11,5 +11,6 @@ namespace UserRegistration.Models
         public string email { get; set; }
         public string DocumentName { get; set; }
         public string Referalcode { get; set; }
+        public string Password { get; set; }
     }
 }
